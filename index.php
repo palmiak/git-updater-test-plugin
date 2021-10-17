@@ -6,6 +6,8 @@ Version:     1.0
 Author:      Andy & Maciek
 License:     GPL2 etc
 License URI: http://link to your plugin license
+GitHub Plugin URI: palmiak/git-updater-test-plugin
+Release Asset: true
 */
 
 add_action( 'admin_notices', 'test_print_notice', 0, 0 );
