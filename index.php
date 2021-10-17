@@ -5,9 +5,6 @@ Description: We will demonstrate how to make it git-updater compatible
 Version:     1.1
 Author:      Andy & Maciek
 License:     GPL2 etc
-GitHub Plugin URI: palmiak/git-updater-test-plugin
-Release Asset: true
-Primary Branch: main
 */
 
 add_action( 'admin_notices', 'test_print_notice', 0, 0 );
