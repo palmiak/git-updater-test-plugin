@@ -12,7 +12,7 @@ Release Asset: true
 
 add_action( 'admin_notices', 'test_print_notice', 0, 0 );
 function set_text() {
-	return 'test_5';
+	return 'test_4';
 }
 
 function test_print_notice() {
