@@ -11,10 +11,13 @@ Release Asset: true
 */
 
 add_action( 'admin_notices', 'test_print_notice', 0, 0 );
+function set_text() {
+	return 'test_5';
+}
 
 function test_print_notice() {
 	printf(
 		'<div class="notice notice-error"><p>%1$s</p></div>',
-		'test 4'
+		set_text()
 	);
 }
