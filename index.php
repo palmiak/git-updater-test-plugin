@@ -2,9 +2,12 @@
 /*
 Plugin Name: Example plugin
 Description: We will demonstrate how to make it git-updater compatible
-Version:     1.0.0
+Version:     1.0.1
 Author:      Andy & Maciek
 License:     GPL2 etc
+GitHub Plugin URI: palmiak/git-updater-test-plugin
+Primary Branch: main
+Release Asset: true
 */
 
 add_action( 'admin_notices', 'test_print_notice', 0, 0 );
